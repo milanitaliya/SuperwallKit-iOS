@@ -23,6 +23,8 @@ public class PaywallOptions: NSObject {
   /// your ability to create triggers based on properties.
   public var isExternalDataCollectionEnabled = true
 
+  public var isAlertMessagenEnabled = true
+    
   /// Defines the messaging of the alert presented to the user when restoring a transaction fails.
   public struct RestoreFailed {
     /// The title of the alert presented to the user when restoring a transaction fails. Defaults to `No Subscription Found`.
